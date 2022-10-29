@@ -1,0 +1,21 @@
+.load-more {
+    display: block;
+    margin: 0 auto;
+    width: 150px;
+    height: 40px;
+    margin-bottom: 30px;
+    padding: 10px;
+    border: none;
+    border-radius: 15px;
+    background-color: rgb(168, 224, 11);
+    color: white;
+    transition: background-color 150ms linear;
+}
+
+.load-more:hover {
+    background-color: rgb(165, 196, 54);
+}
+
+.load-more:active {
+    background-color: rgb(144, 186, 66);
+}
